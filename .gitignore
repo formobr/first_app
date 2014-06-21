@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Игнорирование конфига bundler
 /.bundle
 
@@ -18,3 +19,29 @@ doc/
 .DS_Store
 .idea
 .secret
+=======
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+config/initializers/secret_token.rb
+config/secrets.yml
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+>>>>>>> 0e3cc05516310ea345f06248fff6333e263f9192
